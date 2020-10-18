@@ -37,13 +37,13 @@ void printArray(int arr[], int size)
 } 
 
 // Driver program to test above functions 
-int main() 
+void main() 
 { 
 	int arr[] = {64, 25, 12, 22, 11}; 
 	int n = sizeof(arr)/sizeof(arr[0]); 
 	selectionSort(arr, n); 
-	cout << "Sorted array: \n"; 
+	cout << "\Sorted array is: \n"; 
 	printArray(arr, n); 
-	return 0; 
+	
 } 
 
